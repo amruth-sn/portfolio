@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.734df05c.css",
+    "main.js": "/portfolio/static/js/main.af3c8df7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ai-image.jpg": "/portfolio/static/media/ai-image.0b4ab16cb914dc0f13ca.jpg",
+    "static/media/IMG_7852.jpg": "/portfolio/static/media/IMG_7852.7912cd7c7b718d2a41ca.jpg",
+    "static/media/web.jpg": "/portfolio/static/media/web.b26906aa0583f6492fd3.jpg",
+    "static/media/sware.png": "/portfolio/static/media/sware.df0141698a4d9f1a4690.png",
+    "static/media/Acumin-RPro.otf": "/portfolio/static/media/Acumin-RPro.0ff8c5d6797bc06270d7.otf",
+    "static/media/final_logo.png": "/portfolio/static/media/final_logo.a5d64c3f36b37a8eb9df.png",
+    "static/media/sudoku.jpg": "/portfolio/static/media/sudoku.2825a2b2c2cb00c16b94.jpg",
+    "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/liberty.jpg": "/portfolio/static/media/liberty.08639f1c42a981a4d861.jpg",
+    "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.734df05c.css.map": "/portfolio/static/css/main.734df05c.css.map",
+    "main.af3c8df7.js.map": "/portfolio/static/js/main.af3c8df7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.734df05c.css",
+    "static/js/main.af3c8df7.js"
+  ]
+}
