@@ -117,7 +117,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://amruth-sn.github.io/portfolio"
+                          href="https://github.com/amruth-sn/portfolio"
                         >
                           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                         </a>
