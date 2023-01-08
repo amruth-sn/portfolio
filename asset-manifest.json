@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.70ec0c96.css",
+    "main.css": "/static/css/main.8ebe662d.css",
     "main.js": "/static/js/main.328255b4.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/ai-image.jpg": "/static/media/ai-image.0b4ab16cb914dc0f13ca.jpg",
@@ -8,6 +8,7 @@
     "static/media/web.jpg": "/static/media/web.b26906aa0583f6492fd3.jpg",
     "static/media/sware.png": "/static/media/sware.df0141698a4d9f1a4690.png",
     "static/media/Acumin-RPro.otf": "/static/media/Acumin-RPro.0ff8c5d6797bc06270d7.otf",
+    "static/media/gill-sans-mt.ttf": "/static/media/gill-sans-mt.eb2d609423fc2e01469a.ttf",
     "static/media/final_logo.png": "/static/media/final_logo.a5d64c3f36b37a8eb9df.png",
     "static/media/sudoku.jpg": "/static/media/sudoku.2825a2b2c2cb00c16b94.jpg",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -15,12 +16,12 @@
     "static/media/liberty.jpg": "/static/media/liberty.08639f1c42a981a4d861.jpg",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.70ec0c96.css.map": "/static/css/main.70ec0c96.css.map",
+    "main.8ebe662d.css.map": "/static/css/main.8ebe662d.css.map",
     "main.328255b4.js.map": "/static/js/main.328255b4.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70ec0c96.css",
+    "static/css/main.8ebe662d.css",
     "static/js/main.328255b4.js"
   ]
 }
