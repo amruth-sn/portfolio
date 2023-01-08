@@ -20,7 +20,10 @@ $primary-color: #ffd700;
   font-family: 'Acumin';
   src: url('./assets/fonts/Acumin-RPro.otf') format('otf')
 }
-
+@font-face{
+  font-family: 'Gill Sans MT';
+  src: url('./assets/fonts/gill-sans-mt.ttf') format('ttf')
+}
 input,
 textarea{
   font-family: 'Helvetica Neue';
