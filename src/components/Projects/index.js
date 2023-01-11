@@ -62,7 +62,7 @@ const Projects = () => {
                   </div>
                   <div className="hover">
                     <div class="color-block">
-                      <h2 className="title">AI Script Generator</h2>
+                      <h2 className="title">Video Script Generator</h2>
                       <h2 className="subtext">Python | OpenAI API | Flask</h2>
                       <h3>
                         Project Source:
