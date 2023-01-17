@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faExternalLinkSquare } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image1 from '../../assets/images/ai-image.jpg'
 import Image2 from '../../assets/images/web.jpg'
@@ -73,6 +74,16 @@ const Projects = () => {
                           href="https://github.com/amruth-sn/openai-project"
                         >
                           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        </a>
+                        <a 
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://script-generator-openai.herokuapp.com/"
+                        >
+                          <FontAwesomeIcon
+                            icon={faExternalLinkSquare}
+                            color="#4d4d4e"
+                          />
                         </a>
                       </h3>
                     </div>
