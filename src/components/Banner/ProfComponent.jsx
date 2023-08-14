@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import Image1 from "../../assets/IMG_7852.jpg";
+import Image1 from "../../assets/IMG_0179.PNG";
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -17,26 +16,60 @@ const ProfComponent = () => {
           <h3>Junior Software Developer</h3>
           <h3>Student at Boston University</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            I'm a third-year Computer Enginering student at Boston University. I
+            am in search of internship opportunities in fields including
+            full-stack software development, back-end development, embedded
+            systems engineering, and more.
           </p>
-          <button>Let's talk</button>
+          <br></br>
+          <p>
+            I am currently based in Boston, MA, but I grew up in West Hartford,
+            CT. Over the course of my 19 years of being alive, I've always been
+            interested in math and science, but I fell in love with the low to
+            high-level architecture of computer systems as soon as I began
+            programming. My interests today also include applied mathematics,
+            physics, and electronics design.
+          </p>
+          <br></br>
+          <br></br>
+          <a href="#footer" class="anchorbutton">
+            Let's talk
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1wo8z-MBT79AGpeI9MPsQdFeLRPK5B7Tz/edit?usp=sharing&ouid=108600050153133696373&rtpof=true&sd=true"
+            target="_blank"
+            rel="noreferrer"
+            class="resumebutton"
+          >
+            Resume
+          </a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/amruth_n/"
+                >
                   <AiOutlineInstagram />
                 </a>
               </span>
               <span>
-                <a href="/">
-                  <GiEarthAmerica />
+                <a
+                  href="https://github.com/amruth-sn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/amruthn/"
+                >
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -46,10 +79,7 @@ const ProfComponent = () => {
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img
-            src={Image1}
-            alt="profile"
-          />
+          <img src={Image1} alt="profile" />
         </Profile>
       </Slide>
     </Container>
@@ -94,7 +124,35 @@ const Texts = styled.div`
   p {
     font-weight: 300;
   }
-
+  .anchorbutton {
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    background-color: #01be96;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    filter: drop-shadow(0px 10px 10px #01be9551);
+    :hover {
+      filter: drop-shadow(0px 10px 10px #01be9570);
+    }
+  }
+  .resumebutton {
+      text-decoration: none;
+      padding: 0.7rem 2rem;
+      margin-left: 3rem;
+      cursor: pointer;
+      background-color: #01be96;
+      border: none;
+      color: #fff;
+      font-weight: 500;
+      filter: drop-shadow(0px 10px 10px #01be9551);
+      :hover {
+        filter: drop-shadow(0px 10px 10px #01be9570);
+      }
+    
+  }
   button {
     padding: 0.7rem 2rem;
     margin-top: 3rem;
@@ -134,6 +192,7 @@ const Social = styled.div`
       transition: transform 400ms ease-in-out;
       :hover {
         transform: rotate(360deg);
+        background-color: purple;
       }
     }
 
@@ -165,6 +224,6 @@ const Profile = styled.div`
   }
 
   :hover img {
-    transform: translateY(-10px);
+    transform: translateX(-10px);
   }
 `;

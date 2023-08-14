@@ -1,86 +1,115 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiCandleFlame } from "react-icons/gi";
+// import { GiCandleFlame } from "react-icons/gi";
+import Image1 from "../../assets/final_logo.png";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
+    
+    const handleSectionClick = () => {
+      setBar(false);
+    };
   return (
     <Container bar={bar}>
-        <Logo>
-            <span className='green'><GiCandleFlame/></span>
-            <h1>Amruth Niranjan</h1>
-        </Logo>
-        <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
-            <span><a href="#project">Projects</a></span>
-            <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Portfolio</a></span>
-        </Nav>
-        <div
-        onClick={() => setBar(!bar)}
-        className="bars">
-            <div className="bar"></div>
-        </div>
+      <Logo>
+        <span className="green">
+          <img src={Image1} className='logo' alt='logo'/>
+        </span>
+        <h1>Amruth Niranjan</h1>
+      </Logo>
+      <Nav bar={bar}>
+        <span>
+          <a href="#home" onClick={handleSectionClick}>
+            Home
+          </a>
+        </span>
+        <span>
+          <a href="#service" onClick={handleSectionClick}>
+            About Me
+          </a>
+        </span>
+        <span>
+          <a href="#project" onClick={handleSectionClick}>
+            Projects
+          </a>
+        </span>
+        {/* <span><a href="#client">Testimonials</a></span> */}
+        <span>
+          <a href="#footer" onClick={handleSectionClick}>
+            Contact
+          </a>
+        </span>
+      </Nav>
+      <div onClick={() => setBar(!bar)} className="bars">
+        <div className="bar"></div>
+      </div>
     </Container>
-  )
+  );
 }
 
 export default Header
 
 const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1280px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 1.5rem 0;
-    position: relative;
-    animation: header 500ms ease-in-out;
-    @media(max-width: 840px){
-        width: 90%;
-    }
-    .bars{
-        display: none;
-    }
-    @media(max-width:640px){
-        .bars{
-            width: 40px;
-            height: 40px;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.5rem;
-            z-index: 100;
-            .bar{
-                position: absolute;
-                width: 100%;
-                height: 2px;
-                background-color: ${props => props.bar ? "transparent" : "#fff"};
-                transition: all 400ms ease-in-out;
-                :before, :after{
-                    content: "";
-                    width: 100%;
-                    height: 2px;
-                    background-color: #fff;
-                    position: absolute;
-                }
-
-                :before{
-                    transform: ${props => props.bar ? "rotate(45deg)" : "translateY(10px)"};
-                    transition: all 400ms ease-in-out;
-                }
-
-                :after{
-                    transform: ${props => props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
-                    transition: all 400ms ease-in-out;
-                }
-            }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  position: relative;
+  animation: header 500ms ease-in-out;
+  @media (max-width: 840px) {
+    width: 90%;
+  }
+  .logo {
+    max-height: 24px;
+    max-width: 24px;
+    margin-right: 1rem;
+  }
+  .bars {
+    display: none;
+  }
+  @media (max-width: 640px) {
+    .bars {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      z-index: 100;
+      .bar {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: ${(props) => (props.bar ? "transparent" : "#fff")};
+        transition: all 400ms ease-in-out;
+        :before,
+        :after {
+          content: "";
+          width: 100%;
+          height: 2px;
+          background-color: #fff;
+          position: absolute;
         }
+
+        :before {
+          transform: ${(props) =>
+            props.bar ? "rotate(45deg)" : "translateY(10px)"};
+          transition: all 400ms ease-in-out;
+        }
+
+        :after {
+          transform: ${(props) =>
+            props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
+          transition: all 400ms ease-in-out;
+        }
+      }
     }
-`
+  }
+`;
 const Logo = styled.div`
     display: flex;
     align-items: center;

@@ -1,32 +1,68 @@
 import React from "react";
 import styled from "styled-components";
-import { MdAlternateEmail } from "react-icons/md";
+import { useRef } from "react";
+import { MdAlternateEmail, MdSubject } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { BsFacebook, BsSlack } from "react-icons/bs";
+import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
+  const refForm = useRef();
   const scrollUp = () => {
     window.scroll({
       top: 0,
       behavior: "smooth",
     });
   };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_js12ziw",
+        "template_xk3zeck",
+        e.target,
+        "Pd8BJ8vLDS6oCwsyN"
+      )
+      .then(
+        () => {
+          alert("Message successfully sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Failed to send the message, please try again");
+        }
+    );
+    e.target.reset();
+  };
+
   return (
     <Container id="footer">
       <Profile>
         <Slide direction="left" delay={1}>
-          <h1>Portfolio</h1>
+          <h1>
+            Contact <span className="green">Me</span>
+          </h1>
         </Slide>
         <div className="address">
           <Slide direction="left">
-            <h1>Address:</h1>
+            <h1>Find me at:</h1>
           </Slide>
           <Slide direction="left">
-            <p>8 St Mary's St, Boston, MA 02215</p>
+            <p>
+              <a
+                href="https://www.google.com/maps/place/8+St+Mary's+St,+Boston,+MA+02215/@42.349241,-71.1091797,17z/data=!3m1!4b1!4m6!3m5!1s0x89e379f05b90cbc3:0x3bacbfb37153907!8m2!3d42.3492371!4d-71.1066048!16s%2Fg%2F11cscj5swx?entry=ttu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                8 St Mary's St, Boston, MA 02215
+              </a>
+            </p>
           </Slide>
         </div>
         <div className="links">
@@ -48,40 +84,58 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:amruthsniranjan@gmail.com">amruthsniranjan@gmail.com</a>
+              <a href="mailto:amruthsniranjan@gmail.com">
+                amruthsniranjan@gmail.com
+              </a>
             </Slide>
           </div>
         </div>
         <div className="profiles">
           <Slide direction="left">
-            <h1>Check my profiles</h1>
+            <h1>Check out my profiles!</h1>
           </Slide>
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a
+                  href="https://github.com/amruth-sn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a
+                  href="https://www.linkedin.com/in/amruthn/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
-                  <BsFacebook />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/amruth_n/"
+                >
+                  <BsInstagram />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
-                  <BsSlack />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/amruthniranjan"
+                >
+                  <BsTwitter />
                 </a>
               </span>
             </Zoom>
@@ -92,29 +146,52 @@ const Footer = () => {
             <AiOutlineArrowUp />
           </ArrowUp>
         </Fade>
+        
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
+          <form ref={refForm} onSubmit={sendEmail}>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" placeholder="Name" name="name" required />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input
+                type="email"
+                placeholder="E-mail Address"
+                name="email"
+                required
+              />
+            </div>
+            <div className="subject">
+              <span>
+                <MdSubject />
+              </span>
+              <input
+                type="text"
+                placeholder="Subject"
+                name="subject"
+                required
+              />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                name="message"
+                required
+              ></textarea>
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </Slide>
       </Form>
@@ -156,6 +233,9 @@ const Profile = styled.div`
       @media (max-width: 650px) {
         width: 100%;
       }
+      a {
+        color: #ffffff;
+      }
     }
   }
 
@@ -178,7 +258,7 @@ const Profile = styled.div`
       }
     }
   }
-
+  
   .profiles {
     h1 {
       font-size: 1.2rem;
@@ -200,7 +280,7 @@ const Profile = styled.div`
         border-radius: 50px;
 
         :hover {
-          background-color: orange;
+          background-color: purple;
         }
 
         a {
@@ -241,6 +321,7 @@ const Form = styled.div`
     border-radius: 5px;
     .name,
     .email,
+    .subject,
     .message {
       display: flex;
       border: 1px solid gray;
