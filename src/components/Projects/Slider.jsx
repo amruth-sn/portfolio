@@ -22,11 +22,11 @@ let data = [
   },
   {
     img: Image2,
-    header: "YouTube to MP3 Converter",
-    disc: "Full-stack project using Node.js and React.js. YouTube video links are sent to the API and packaged as a downloadable .mp3 file. ",
+    header: "TubeByte - YouTube to MP3 Converter",
+    disc: "Full-stack project using Express/Node.js and React.js. YouTube video links are sent to an API and packaged as a downloadable .mp3 file. ",
     demo: true,
     code: true,
-    link: "https://google.com/",
+    link: "https://tubebyte.netlify.app/",
     source: "https://github.com/amruth-sn/tubebyte",
   },
   {
