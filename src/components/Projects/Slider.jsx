@@ -9,6 +9,7 @@ import Image3 from "../../assets/liberty.jpg";
 import Image4 from "../../assets/web.jpg";
 import Image5 from "../../assets/sudoku.jpg";
 import Image6 from "../../assets/sware.png";
+import Image7 from "../../assets/pokemon.png";
 
 let data = [
   {
@@ -46,6 +47,15 @@ let data = [
     code: true,
     link: "https://amruthn.com",
     source: "https://github.com/amruth-sn/portfolio",
+  },
+  {
+    img: Image7,
+    header: "Command-Line Pok\u00E9mon Simulator",
+    disc: "I programmed a Pok\u00E9mon Simulator that features a character moving on a grid with interactable NPCs, locations (Gyms/Centers), and items using object-oriented programming.",
+    demo: false,
+    code: true,
+    link: "",
+    source: "https://github.com/amruth-sn/cli-pokemon-simulator",
   },
   {
     img: Image5,
