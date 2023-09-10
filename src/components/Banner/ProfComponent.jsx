@@ -36,7 +36,7 @@ const ProfComponent = () => {
             Let's talk
           </a>
           <a
-            href="https://docs.google.com/document/d/1oUsWQO5U_6I6VPNclN4rkFa5xXtONi1Z/preview"
+            href="https://docs.google.com/document/d/1D2nLHdFmqaL9foWrkYjDiYu5eXNCkAcq/preview"
             target="_blank"
             rel="noreferrer"
             class="resumebutton"
