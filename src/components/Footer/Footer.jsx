@@ -273,14 +273,15 @@ const Profile = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #000;
+        background-color: #F2542D;
         width: 2rem;
         height: 2rem;
         margin-right: 0.5rem;
         border-radius: 50px;
-
+        position: relative;
         :hover {
           background-color: purple;
+          transform: rotate(360deg);
         }
 
         a {

@@ -19,22 +19,22 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={MdDesignServices}
-            title={"Programming Languages"}
-            disc={`I am proficient in C++, Python, and Java. I have taught myself JavaScript and Python. I am also well-versed in MATLAB, Verilog, C, and HTML/CSS.`}
+            title={"Languages & Skills"}
+            disc={`I am proficient in C, C++, and Python (self-taught). I have worked my way through many Python libraries, most importantly PyTorch and TensorFlow.`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={CgBolt}
             title={"Skills"}
-            disc={`I describe myself as disciplined, passionate, and content with what I do. I am competitive and a team player. Check out my resume for more!`}
+            disc={`I describe myself as disciplined, passionate, and content with what I do. I am a team-player who can't seem to shy away from a competition!`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={CgBulb}
             title={"Experience"}
-            disc={`Most recently, I worked as a researcher with the University of Connecticut, where I worked with the U.S. Navy to develop software for data analysis.`}
+            disc={`I'm currently researching deep learning methods for epileptic seizure detection and related medical computer vision applications.`}
           />
         </Slide>
         <Slide direction="right">

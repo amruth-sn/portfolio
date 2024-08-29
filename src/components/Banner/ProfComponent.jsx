@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import Image1 from "../../assets/IMG_0179.PNG";
+import Image1 from "../../assets/IMG_1583.png";
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -13,23 +13,25 @@ const ProfComponent = () => {
             Hi, <span className="green">I'm</span>
           </h4>
           <h1 className="green">Amruth Niranjan</h1>
-          <h3>Junior Software Developer</h3>
           <h3>Student at Boston University</h3>
           <p>
-            I'm a third-year Computer Enginering student at Boston University. I
-            am in search of internship opportunities in fields including
-            full-stack software development, back-end development, embedded
-            systems engineering, and more.
+            I'm a fourth-year Computer Engineering student at Boston University with a concentration 
+            in machine learning and a minor in mathematics.
           </p>
           <br></br>
           <p>
-            I am currently based in Boston, MA, but I grew up in West Hartford,
-            CT. Over the course of my 19 years of being alive, I've always been
-            interested in math and science, but I fell in love with the low to
-            high-level architecture of computer systems as soon as I began
-            programming. My interests today also include applied mathematics,
-            physics, and electronics design.
+            I'm currently based in Boston, MA, but I grew up in West Hartford,
+            CT. For the last 20 years, I've always been
+            interested in math and science, but I fell in love with architecture of computer systems as soon as I began
+            programming. I've always been addicted to the joy that math gives me, which inspired me to pursue machine learning and 
+            mathematics as well. My interests include deep learning, probability theory, natural language processing (NLP), stochastic calculus, and computer vision.
           </p>
+          <br></br>
+          <p>Currently, I'm working as an undergraduate researcher at the Boston University Neural Systems Analysis Laboratory, 
+            as well as a teaching assistant for two graduate-level courses.
+          </p>
+          <h4 class="quote"><b>“Climb mountains not so the world can see you, but so you can see the world.”</b></h4>
+          <h6> ― David McCullough Jr. </h6>
           <br></br>
           <br></br>
           <a href="#footer" class="anchorbutton">
@@ -107,9 +109,18 @@ const Container = styled.div`
 const Texts = styled.div`
   flex: 1;
   h4 {
-    padding: 1rem 0;
+    padding: 0rem 0;
     font-weight: 500;
+
   }
+
+  .quote {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 1000;
+    font-family: "Times-Bold";
+    }
+
   h1 {
     font-size: 2rem;
     font-family: "Secular One", sans-serif;
@@ -207,7 +218,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 10px 10px #f2542d70);
+    filter: drop-shadow(0px 10px 10px #0E34A0);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;
