@@ -16,12 +16,12 @@ const ProfComponent = () => {
           <h3>Student at Boston University</h3>
           <p>
             I'm a fourth-year Computer Engineering student at Boston University with a concentration 
-            in machine learning and a minor in mathematics.
+            in machine learning.
           </p>
           <br></br>
           <p>
             I'm currently based in Boston, MA, but I grew up in West Hartford,
-            CT. For the last 20 years, I've always been
+            CT. For the last 21 years, I've always been
             interested in math and science, but I fell in love with architecture of computer systems as soon as I began
             programming. I've always been addicted to the joy that math gives me, which inspired me to pursue machine learning and 
             mathematics as well. My interests include deep learning, probability theory, natural language processing (NLP), stochastic calculus, and computer vision.
@@ -38,7 +38,7 @@ const ProfComponent = () => {
             Let's talk
           </a>
           <a
-            href="https://docs.google.com/document/d/1D2nLHdFmqaL9foWrkYjDiYu5eXNCkAcq/preview"
+            href="https://docs.google.com/document/d/1ikMD7AFWGObVPpePkZ6hUUTtYsOTCYnB/preview"
             target="_blank"
             rel="noreferrer"
             class="resumebutton"
@@ -48,15 +48,7 @@ const ProfComponent = () => {
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
-              <span>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/amruth_n/"
-                >
-                  <AiOutlineInstagram />
-                </a>
-              </span>
+              
               <span>
                 <a
                   href="https://github.com/amruth-sn"
@@ -73,6 +65,15 @@ const ProfComponent = () => {
                   href="https://www.linkedin.com/in/amruthn/"
                 >
                   <FaLinkedinIn />
+                </a>
+              </span>
+              <span>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/amruth_n/"
+                >
+                  <AiOutlineInstagram />
                 </a>
               </span>
             </div>
