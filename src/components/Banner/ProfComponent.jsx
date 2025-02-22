@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import Image1 from "../../assets/IMG_1583.png";
@@ -16,15 +15,14 @@ const ProfComponent = () => {
           <h3>Student at Boston University</h3>
           <p>
             I'm a fourth-year Computer Engineering student at Boston University with a concentration 
-            in machine learning.
+            in Machine Learning.
           </p>
           <br></br>
           <p>
             I'm currently based in Boston, MA, but I grew up in West Hartford,
             CT. For the last 21 years, I've always been
-            interested in math and science, but I fell in love with architecture of computer systems as soon as I began
-            programming. I've always been addicted to the joy that math gives me, which inspired me to pursue machine learning and 
-            mathematics as well. My interests include deep learning, probability theory, natural language processing (NLP), stochastic calculus, and computer vision.
+            interested in math and science, but I fell in love with computers once I started
+            programming. My interests include deep learning, probability theory, natural language processing (NLP), stochastic calculus, and computer vision.
           </p>
           <br></br>
           <p>Currently, I'm working as an undergraduate researcher at the Boston University Neural Systems Analysis Laboratory, 
@@ -38,7 +36,7 @@ const ProfComponent = () => {
             Let's talk
           </a>
           <a
-            href="https://docs.google.com/document/d/1ikMD7AFWGObVPpePkZ6hUUTtYsOTCYnB/preview"
+            href="https://docs.google.com/document/d/1Kf1Nz7eEc5h_9odW_LVvNXyyFLnbX5MKNxGac2eijhA/preview?tab=t.0"
             target="_blank"
             rel="noreferrer"
             class="resumebutton"
@@ -67,15 +65,7 @@ const ProfComponent = () => {
                   <FaLinkedinIn />
                 </a>
               </span>
-              <span>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/amruth_n/"
-                >
-                  <AiOutlineInstagram />
-                </a>
-              </span>
+              
             </div>
           </Social>
         </Texts>
