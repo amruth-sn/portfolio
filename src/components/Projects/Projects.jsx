@@ -1,15 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 import SliderComp from './Slider';
-import { Zoom } from 'react-awesome-reveal';
+// import { Zoom } from 'react-awesome-reveal';
 
 const Projects = () => {
   return (
     <Container id='project'>
-        <Zoom>
-            <h1>Recent <span className="green">Projects</span></h1>
-            <p>Feel free to view some of the recent projects I have created!</p>
-        </Zoom>
+        <h1>My <span className="orange">Projects</span></h1>
+        <p>Feel free to view some of the personal projects I have created!</p>
         <Slide>
             <SliderComp/>
         </Slide>

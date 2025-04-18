@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
-import { useRef } from "react";
-import { MdAlternateEmail, MdSubject } from "react-icons/md";
+import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
+import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
-import { FiMail, FiPhoneCall } from "react-icons/fi";
-import { Slide, Zoom, Fade } from "react-awesome-reveal";
-import emailjs from "@emailjs/browser";
+import { MdSubject } from "react-icons/md";
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
   const refForm = useRef();
+
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -21,169 +21,130 @@ const Footer = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_js12ziw",
-        "template_xk3zeck",
-        e.target,
-        "Pd8BJ8vLDS6oCwsyN"
-      )
-      .then(
-        () => {
-          alert("Message successfully sent!");
-          window.location.reload(false);
-        },
-        () => {
-          alert("Failed to send the message, please try again");
-        }
-    );
+    emailjs.sendForm('service_5knrz7e', 'template_0yk2ocg', refForm.current, '1-1YZ_rVRBRZ8-Ppo')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
     e.target.reset();
   };
 
   return (
     <Container id="footer">
       <Profile>
-        <Slide direction="left" delay={1}>
-          <h1>
-            Contact <span className="green">Me</span>
-          </h1>
-        </Slide>
+        <h1>
+          Contact <span className="orange">Me</span>
+        </h1>
         <div className="address">
-          <Slide direction="left">
-            <h1>Find me at:</h1>
-          </Slide>
-          <Slide direction="left">
-            <p>
-              <a
-                href="https://www.google.com/maps/place/8+St+Mary's+St,+Boston,+MA+02215/@42.349241,-71.1091797,17z/data=!3m1!4b1!4m6!3m5!1s0x89e379f05b90cbc3:0x3bacbfb37153907!8m2!3d42.3492371!4d-71.1066048!16s%2Fg%2F11cscj5swx?entry=ttu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                8 St Mary's St, Boston, MA 02215
-              </a>
-            </p>
-          </Slide>
+          <h1>Find me at:</h1>
+          <p>
+            <a
+              href="https://www.google.com/maps/place/8+St+Mary's+St,+Boston,+MA+02215/@42.349241,-71.1091797,17z/data=!3m1!4b1!4m6!3m5!1s0x89e379f05b90cbc3:0x3bacbfb37153907!8m2!3d42.3492371!4d-71.1066048!16s%2Fg%2F11cscj5swx?entry=ttu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              8 St Mary's St, Boston, MA 02215
+            </a>
+          </p>
         </div>
         <div className="links">
-          <Slide direction="left">
-            <h1>Contact me directly:</h1>
-          </Slide>
+          <h1>Contact me directly:</h1>
           <div>
             <span>
               <FiPhoneCall />
             </span>
-            <Slide direction="left">
-              <a href="tel:+1 8607091555">+1 (860) 709-1555</a>
-            </Slide>
+            <a href="tel:+1 8607091555">+1 (860) 709-1555</a>
           </div>
           <div>
-            <Slide direction="left">
-              <span>
-                <HiOutlineMailOpen />
-              </span>
-            </Slide>
-            <Slide>
-              <a href="mailto:amruthsniranjan@gmail.com">
-                amruthsniranjan@gmail.com
-              </a>
-            </Slide>
+            <span>
+              <HiOutlineMailOpen />
+            </span>
+            <a href="mailto:amruthsniranjan@gmail.com">
+              amruthsniranjan@gmail.com
+            </a>
           </div>
         </div>
         <div className="profiles">
-          <Slide direction="left">
-            <h1>Check out my profiles!</h1>
-          </Slide>
+          <h1>Check out my profiles!</h1>
           <div className="icons">
-            <Zoom>
-              <span>
-                <a
-                  href="https://github.com/amruth-sn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <AiFillGithub />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a
-                  href="https://www.linkedin.com/in/amruthn/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <AiFillLinkedin />
-                </a>
-              </span>
-            </Zoom>
-            
-            <Zoom>
-              <span>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://twitter.com/amruthniranjan"
-                >
-                  <BsTwitter />
-                </a>
-              </span>
-            </Zoom>
+            <span>
+              <a
+                href="https://github.com/amruth-sn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/amruthn/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillLinkedin />
+              </a>
+            </span>
+            <span>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/amruthniranjan"
+              >
+                <BsTwitter />
+              </a>
+            </span>
           </div>
         </div>
-        <Fade>
-          <ArrowUp onClick={scrollUp}>
-            <AiOutlineArrowUp />
-          </ArrowUp>
-        </Fade>
-        
+        <ArrowUp onClick={scrollUp}>
+          <AiOutlineArrowUp />
+        </ArrowUp>
       </Profile>
       <Form>
-        <Slide direction="right">
-          <form ref={refForm} onSubmit={sendEmail}>
-            <div className="name">
-              <span>
-                <CgProfile />
-              </span>
-              <input type="text" placeholder="Name" name="name" required />
-            </div>
-            <div className="email">
-              <span>
-                <MdAlternateEmail />
-              </span>
-              <input
-                type="email"
-                placeholder="E-mail Address"
-                name="email"
-                required
-              />
-            </div>
-            <div className="subject">
-              <span>
-                <MdSubject />
-              </span>
-              <input
-                type="text"
-                placeholder="Subject"
-                name="subject"
-                required
-              />
-            </div>
-            <div className="message">
-              <span className="messageIcon">
-                <FiMail />
-              </span>
-              <textarea
-                cols="30"
-                rows="10"
-                placeholder="Message"
-                name="message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit">Submit</button>
-          </form>
-        </Slide>
+        <form ref={refForm} onSubmit={sendEmail}>
+          <div className="name">
+            <span>
+              <CgProfile />
+            </span>
+            <input type="text" placeholder="Name" name="name" required />
+          </div>
+          <div className="email">
+            <span>
+              <MdAlternateEmail />
+            </span>
+            <input
+              type="email"
+              placeholder="E-mail Address"
+              name="email"
+              required
+            />
+          </div>
+          <div className="subject">
+            <span>
+              <MdSubject />
+            </span>
+            <input
+              type="text"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
+          </div>
+          <div className="message">
+            <span className="messageIcon">
+              <FiMail />
+            </span>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </Form>
     </Container>
   );

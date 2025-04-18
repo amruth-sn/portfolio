@@ -1,80 +1,77 @@
 import React from "react";
 import styled from "styled-components";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { Slide } from "react-awesome-reveal";
+// import { Slide } from "react-awesome-reveal";
 import Image1 from "../../assets/IMG_1583.png";
 const ProfComponent = () => {
   return (
     <Container id="home">
-      <Slide direction="left">
-        <Texts>
-          <h4>
-            Hi, <span className="green">I'm</span>
-          </h4>
-          <h1 className="green">Amruth Niranjan</h1>
-          <h3>Student at Boston University</h3>
-          <p>
-            I'm a fourth-year Computer Engineering student at Boston University with a concentration 
-            in Machine Learning.
-          </p>
-          <br></br>
-          <p>
-            I'm currently based in Boston, MA, but I grew up in West Hartford,
-            CT. For the last 21 years, I've always been
-            interested in math and science, but I fell in love with computers once I started
-            programming. My interests include deep learning, probability theory, natural language processing (NLP), stochastic calculus, and computer vision.
-          </p>
-          <br></br>
-          <p>Currently, I'm working as an undergraduate researcher at the Boston University Neural Systems Analysis Laboratory, 
-            as well as a teaching assistant for two graduate-level courses.
-          </p>
-          <h4 class="quote"><b>“Climb mountains not so the world can see you, but so you can see the world.”</b></h4>
-          <h6> ― David McCullough Jr. </h6>
-          <br></br>
-          <br></br>
-          <a href="#footer" class="anchorbutton">
-            Let's talk
-          </a>
-          <a
-            href="https://docs.google.com/document/d/1Kf1Nz7eEc5h_9odW_LVvNXyyFLnbX5MKNxGac2eijhA/preview?tab=t.0"
-            target="_blank"
-            rel="noreferrer"
-            class="resumebutton"
-          >
-            Resume
-          </a>
-          <Social>
-            <p>Check out my</p>
-            <div className="social-icons">
-              
-              <span>
-                <a
-                  href="https://github.com/amruth-sn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-              <span>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.linkedin.com/in/amruthn/"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </span>
-              
-            </div>
-          </Social>
-        </Texts>
-      </Slide>
-      <Slide direction="right">
-        <Profile>
-          <img src={Image1} alt="profile" />
-        </Profile>
-      </Slide>
+      <Texts>
+        <h4>
+          Hi, <span className="orange">I'm</span>
+        </h4>
+        <h1 className="orange">Amruth Niranjan</h1>
+        <h3>Student at Boston University</h3>
+        <p>
+          I'm a fourth-year Computer Engineering student at Boston University with a concentration 
+          in Machine Learning.
+        </p>
+        <br></br>
+        <p>
+          I'm currently based in Boston, MA, but I grew up in West Hartford,
+          CT. For the last 21 years, I've always been
+          interested in math and science, but I fell in love with computers once I started
+          programming. My interests include system design (full-stack), hardware optimization, NLP, and computer vision.
+        </p>
+        <br></br>
+        <p>Currently, I'm wrapping up my last semester at BU and looking for opportunities in the industry.
+        </p>
+        <br></br>
+        <br></br>
+        <h4 class="quote"><b>"Climb mountains not so the world can see you, but so you can see the world."</b></h4>
+        <h6> ― David McCullough Jr. </h6>
+        <br></br>
+        <br></br>
+        <a href="#footer" class="anchorbutton">
+          Let's talk
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1Kf1Nz7eEc5h_9odW_LVvNXyyFLnbX5MKNxGac2eijhA/preview?tab=t.0"
+          target="_blank"
+          rel="noreferrer"
+          class="resumebutton"
+        >
+          Resume
+        </a>
+        <Social>
+          <p>Check out my</p>
+          <div className="social-icons">
+            
+            <span>
+              <a
+                href="https://github.com/amruth-sn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </span>
+            <span>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/amruthn/"
+              >
+                <FaLinkedinIn />
+              </a>
+            </span>
+            
+          </div>
+        </Social>
+      </Texts>
+      <Profile>
+        <img src={Image1} alt="profile" />
+      </Profile>
     </Container>
   );
 };
@@ -84,7 +81,7 @@ export default ProfComponent;
 const Container = styled.div`
   display: flex;
   gap: 2rem;
-  padding-top: 3rem;
+  padding-top: 6rem;
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
@@ -95,6 +92,7 @@ const Container = styled.div`
 
   @media (max-width: 640px) {
     flex-direction: column;
+    padding-top: 5rem;
   }
 `;
 const Texts = styled.div`
@@ -190,9 +188,8 @@ const Social = styled.div`
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
       background-color: #f2542d;
       position: relative;
-      transition: transform 400ms ease-in-out;
+      transition: none;
       :hover {
-        transform: rotate(360deg);
         background-color: purple;
       }
     }
@@ -210,7 +207,7 @@ const Profile = styled.div`
   img {
     width: 25rem;
     filter: drop-shadow(0px 10px 10px #0E34A0);
-    transition: transform 400ms ease-in-out;
+    transition: none;
     @media (max-width: 790px) {
       width: 20rem;
     }
@@ -225,6 +222,6 @@ const Profile = styled.div`
   }
 
   :hover img {
-    transform: translateX(-10px);
+    transform: none;
   }
 `;

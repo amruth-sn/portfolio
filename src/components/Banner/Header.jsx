@@ -10,44 +10,57 @@ const Header = () => {
       setBar(false);
     };
   return (
-    <Container bar={bar}>
-      <Logo>
-        <span className="green">
-          <img src={Image1} className='logo' alt='logo'/>
-        </span>
-        <h1>Amruth Niranjan</h1>
-      </Logo>
-      <Nav bar={bar}>
-        <span>
-          <a href="#home" onClick={handleSectionClick}>
-            Home
-          </a>
-        </span>
-        <span>
-          <a href="#service" onClick={handleSectionClick}>
-            About Me
-          </a>
-        </span>
-        <span>
-          <a href="#project" onClick={handleSectionClick}>
-            Projects
-          </a>
-        </span>
-        {/* <span><a href="#client">Testimonials</a></span> */}
-        <span>
-          <a href="#footer" onClick={handleSectionClick}>
-            Contact
-          </a>
-        </span>
-      </Nav>
-      <div onClick={() => setBar(!bar)} className="bars">
-        <div className="bar"></div>
-      </div>
-    </Container>
+    <HeaderWrapper>
+      <Container bar={bar}>
+        <Logo>
+          <span className="orange">
+            <img src={Image1} className='logo rotating' alt='logo'/>
+          </span>
+          <h1>Amruth Niranjan</h1>
+        </Logo>
+        <Nav bar={bar}>
+          <span>
+            <a href="#home" onClick={handleSectionClick}>
+              Home
+            </a>
+          </span>
+          <span>
+            <a href="#service" onClick={handleSectionClick}>
+              About Me
+            </a>
+          </span>
+          <span>
+            <a href="#project" onClick={handleSectionClick}>
+              Projects
+            </a>
+          </span>
+          <span>
+            <a href="#footer" onClick={handleSectionClick}>
+              Contact
+            </a>
+          </span>
+        </Nav>
+        <div onClick={() => setBar(!bar)} className="bars">
+          <div className="bar"></div>
+        </div>
+      </Container>
+    </HeaderWrapper>
   );
 }
 
 export default Header
+
+const HeaderWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+`;
 
 const Container = styled.div`
   display: flex;
@@ -57,8 +70,8 @@ const Container = styled.div`
   width: 80%;
   margin: 0 auto;
   padding: 1.5rem 0;
-  position: relative;
-  animation: header 500ms ease-in-out;
+  animation: none;
+  
   @media (max-width: 840px) {
     width: 90%;
   }
@@ -67,6 +80,20 @@ const Container = styled.div`
     max-width: 24px;
     margin-right: 1rem;
   }
+  
+  .rotating {
+    animation: rotate 12s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
   .bars {
     display: none;
   }
@@ -79,13 +106,13 @@ const Container = styled.div`
       align-items: center;
       justify-content: center;
       padding: 0.5rem;
-      z-index: 100;
+      z-index: 1002;
       .bar {
         position: absolute;
         width: 100%;
         height: 2px;
         background-color: ${(props) => (props.bar ? "transparent" : "#fff")};
-        transition: all 400ms ease-in-out;
+        transition: none;
         :before,
         :after {
           content: "";
@@ -98,13 +125,13 @@ const Container = styled.div`
         :before {
           transform: ${(props) =>
             props.bar ? "rotate(45deg)" : "translateY(10px)"};
-          transition: all 400ms ease-in-out;
+          transition: none;
         }
 
         :after {
           transform: ${(props) =>
             props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
-          transition: all 400ms ease-in-out;
+          transition: none;
         }
       }
     }
@@ -136,9 +163,12 @@ const Nav = styled.div`
     gap: 2rem;
     font-weight: 700;
     height: ${(props) => (props.bar ? "100vh" : 0)};
-    transition: height 400ms ease-in-out;
+    transition: none;
     overflow: hidden;
-    z-index: 100;
+    z-index: 1001;
+    width: 100%;
+    left: 0;
+    right: 0;
   }
   span {
     margin-left: 1rem;
@@ -157,7 +187,7 @@ const Nav = styled.div`
         background-color: #fff;
         transform: scale(0);
         transform-origin: right;
-        transition: transform 400ms ease-in-out;
+        transition: none;
       }
       :hover:before {
         transform: scale(1);
