@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on amruthn.com</title>
-    <link>//localhost:1313/tags/typescript/</link>
+    <link>//localhost:64634/tags/typescript/</link>
     <description>Recent content in Typescript on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>roomform.ai</title>
-      <link>//localhost:1313/projects/roomform/</link>
+      <link>//localhost:64634/projects/roomform/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/roomform/</guid>
+      <guid>//localhost:64634/projects/roomform/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;our (collegiate) magnum opus. designed this with three friends as a part of our senior design project, but it turned into something much bigger.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;problem&lt;/h2&gt;&#xA;&lt;p&gt;when i moved into my apartment, i was lucky enough to have core furniture already installed by the guy who lived here before me (i just paid him for it). but when i wanted to buy something new, like a lamp or a new couch for the living room, etc., i faced an issue which is pretty common among home decorators:&lt;/p&gt;</description>
     </item>
   </channel>

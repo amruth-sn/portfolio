@@ -15,7 +15,7 @@ feel free to check out my [other](/other) areas of interest.
 
 # about me
  
-resume: 
+resume: [here](https://drive.google.com/file/d/1YzanotACKduH6jyFY9HTnISrvh3HpJNW/view)
  
  
-
+check out my [skills](/skills)!

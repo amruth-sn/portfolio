@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h1>Posts for: #{{ .Title }}</h1>
+  <h1>posts for: #{{ .Title | lower }}</h1>
   {{ with .Content }}
     <div class="index-content">
       {{ . }}
@@ -26,7 +26,7 @@
           <span class="post-tags">
             {{ range .Params.tags }}
             #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
-              {{- . -}}
+              {{- . | lower -}}
             </a>&nbsp;
             {{ end }}
           </span>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fitness on amruthn.com</title>
-    <link>//localhost:1313/tags/fitness/</link>
+    <link>//localhost:64634/tags/fitness/</link>
     <description>Recent content in Fitness on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/fitness/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/tags/fitness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fitness</title>
-      <link>//localhost:1313/other/fitness/</link>
+      <link>//localhost:64634/other/fitness/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/other/fitness/</guid>
+      <guid>//localhost:64634/other/fitness/</guid>
       <description>&lt;h1 id=&#34;fitness&#34;&gt;fitness&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>plate calculator</title>
-      <link>//localhost:1313/projects/platecalc/</link>
+      <link>//localhost:64634/projects/platecalc/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/platecalc/</guid>
+      <guid>//localhost:64634/projects/platecalc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;got into lifting over winter break and i always thought something like this existed but didn&amp;rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.&lt;/p&gt;&#xA;&lt;p&gt;for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?&lt;/p&gt;</description>
     </item>
   </channel>

@@ -181,18 +181,18 @@ pagination.pagerSize = 5
           url = "/projects/roomform"
           parent = "major"
           weight = 1
+
+        [[languages.en.menu.main]]
+          identifier = "rightup"
+          name = "rightup"
+          url = "/projects/rightup"
+          parent = "major"
+          weight = 2
           
         [[languages.en.menu.main]]
           identifier = "deepsoz-hem"
           name = "deepsoz-hem"
           url = "/projects/deepsoz-hem"
-          parent = "major"
-          weight = 2
-          
-        [[languages.en.menu.main]]
-          identifier = "rightup"
-          name = "rightup"
-          url = "/projects/rightup"
           parent = "major"
           weight = 3
 
@@ -208,20 +208,27 @@ pagination.pagerSize = 5
           name = "other"
           url = "/other"
           weight = 2
+
+        [[languages.en.menu.main]]
+          identifier = "skills"
+          name = "skills"
+          url = "/other/skills"
+          parent = "other"
+          weight = 1
           
         [[languages.en.menu.main]]
           identifier = "fitness"
           name = "fitness"
           url = "/other/fitness"
           parent = "other"
-          weight = 1
+          weight = 2
           
         [[languages.en.menu.main]]
           identifier = "media"
           name = "media"
           url = "/other/media"
           parent = "other"
-          weight = 2
+          weight = 3
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on amruthn.com</title>
-    <link>//localhost:1313/tags/markdown/</link>
+    <link>//localhost:64634/tags/markdown/</link>
     <description>Recent content in Markdown on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>portfolio</title>
-      <link>//localhost:1313/projects/portfolio/</link>
+      <link>//localhost:64634/projects/portfolio/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/portfolio/</guid>
+      <guid>//localhost:64634/projects/portfolio/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;started off as a react.js page with email.js integration, but then i realized i wasn&amp;rsquo;t important enough for that to have any real effect.&lt;/p&gt;&#xA;&lt;p&gt;found out about Hugo, a Golang-based static site generator. i&amp;rsquo;m typing this out on it, hence the &amp;ldquo;meta&amp;rdquo;-aspect. definitely feels a lot smoother for something like a portfolio page, without all of the extra overhead (apart from installing themes&amp;hellip;)&lt;/p&gt;</description>
     </item>
   </channel>

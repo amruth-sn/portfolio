@@ -2,141 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/aws/</loc>
+    <loc>//localhost:64634/tags/aws/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/development/</loc>
+    <loc>//localhost:64634/tags/development/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/django/</loc>
+    <loc>//localhost:64634/tags/django/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/docker/</loc>
+    <loc>//localhost:64634/tags/docker/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/featured/</loc>
+    <loc>//localhost:64634/tags/featured/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/other/fitness/</loc>
+    <loc>//localhost:64634/other/fitness/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/fitness/</loc>
+    <loc>//localhost:64634/tags/fitness/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hugo/</loc>
+    <loc>//localhost:64634/tags/hugo/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/major/</loc>
+    <loc>//localhost:64634/projects/major/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
+    <loc>//localhost:64634/tags/markdown/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/other/media/</loc>
+    <loc>//localhost:64634/other/media/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/micro/</loc>
+    <loc>//localhost:64634/projects/micro/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/minor/</loc>
+    <loc>//localhost:64634/projects/minor/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/new/</loc>
+    <loc>//localhost:64634/tags/new/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/next.js/</loc>
+    <loc>//localhost:64634/tags/next.js/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/other/</loc>
+    <loc>//localhost:64634/other/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/portfolio/</loc>
+    <loc>//localhost:64634/projects/portfolio/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/postgresql/</loc>
+    <loc>//localhost:64634/tags/postgresql/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>//localhost:64634/projects/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/python/</loc>
+    <loc>//localhost:64634/tags/python/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/rightup/</loc>
+    <loc>//localhost:64634/projects/rightup/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/roomform/</loc>
+    <loc>//localhost:64634/projects/roomform/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:64634/other/skills/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/typescript/</loc>
+    <loc>//localhost:64634/tags/skills/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:64634/tags/</loc>
     <lastmod>2025-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/auto-email/</loc>
+    <loc>//localhost:64634/tags/typescript/</loc>
+    <lastmod>2025-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:64634/</loc>
+    <lastmod>2025-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:64634/projects/auto-email/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/fastapi/</loc>
+    <loc>//localhost:64634/tags/fastapi/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/javascript/</loc>
+    <loc>//localhost:64634/tags/javascript/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/playwright/</loc>
+    <loc>//localhost:64634/tags/playwright/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/deepsoz-hem/</loc>
+    <loc>//localhost:64634/projects/deepsoz-hem/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/jupyter-notebook/</loc>
+    <loc>//localhost:64634/tags/jupyter-notebook/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pytorch/</loc>
+    <loc>//localhost:64634/tags/pytorch/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/research/</loc>
+    <loc>//localhost:64634/tags/research/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/platecalc/</loc>
+    <loc>//localhost:64634/projects/platecalc/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ci-cd/</loc>
+    <loc>//localhost:64634/tags/ci-cd/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/harness/</loc>
+    <loc>//localhost:64634/tags/harness/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/liquibase/</loc>
+    <loc>//localhost:64634/tags/liquibase/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/snowflake/</loc>
+    <loc>//localhost:64634/tags/snowflake/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/snowpilot/</loc>
+    <loc>//localhost:64634/projects/snowpilot/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/auto-commit/</loc>
+    <loc>//localhost:64634/projects/auto-commit/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/bash/</loc>
+    <loc>//localhost:64634/tags/bash/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/c/</loc>
+    <loc>//localhost:64634/tags/c/</loc>
     <lastmod>2023-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/file_system/</loc>
+    <loc>//localhost:64634/projects/file_system/</loc>
     <lastmod>2023-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/pthreads/</loc>
+    <loc>//localhost:64634/projects/pthreads/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/shell/</loc>
+    <loc>//localhost:64634/projects/shell/</loc>
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:64634/categories/</loc>
   </url>
 </urlset>
