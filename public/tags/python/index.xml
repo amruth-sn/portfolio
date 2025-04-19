@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on amruthn.com</title>
+    <link>//localhost:1313/tags/python/</link>
+    <description>Recent content in Python on amruthn.com</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>roomform.ai</title>
+      <link>//localhost:1313/projects/roomform/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/roomform/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;our (collegiate) magnum opus. designed this with three friends as a part of our senior design project, but it turned into something much bigger.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;problem&lt;/h2&gt;&#xA;&lt;p&gt;when i moved into my apartment, i was lucky enough to have core furniture already installed by the guy who lived here before me (i just paid him for it). but when i wanted to buy something new, like a lamp or a new couch for the living room, etc., i faced an issue which is pretty common among home decorators:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>automated recruiter emails</title>
+      <link>//localhost:1313/projects/auto-email/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/auto-email/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;a fastapi-powered backend that automates the entire cold-emailing process for job applications. it handles scraping job info to generating and sending emails. i connected it to a google sheets app script and it runs locally with an ngrok tunnel to interact with from the browser for the apps script.&lt;/p&gt;&#xA;&lt;p&gt;you start by pasting a linkedin job link into the sheet and the system kicks off a playwright script that scrapes the company name, job title, and job description. after this a separate playwright worker searches bing for recruiter or hiring manager profiles at the company (e.g. “recruiters at {company_name} site:linkedin.com”), finds the most relevant result, and adds that link to the sheet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>deepSOZ-HEM</title>
+      <link>//localhost:1313/projects/deepsoz-hem/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/deepsoz-hem/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;over the course of jan 2024 - march 2025, i worked on improving, building, and ultimately evaluating an epileptic seizure detection algorithm using &amp;ldquo;DeepSOZ: A Robust Deep Model for Joint Temporal and Spatial Seizure Onset Localization from Multichannel EEG Data&amp;rdquo; (Shama, et al., MICCAI 2023) as a baseline model.&lt;/p&gt;&#xA;&lt;h2 id=&#34;process&#34;&gt;process&lt;/h2&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;challenge&lt;/h2&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;results&lt;/h2&gt;&#xA;&lt;h2 id=&#34;people&#34;&gt;people&lt;/h2&gt;&#xA;&lt;p&gt;a big thank you to Dr. Archana Venkataraman and Deeksha Shama for working with me over this year. they taught me so much  content-wise (that i never learned in any classes) but more specifically the process of iterating over an end-to-end research project itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>snowpilot</title>
+      <link>//localhost:1313/projects/snowpilot/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/snowpilot/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;when i worked with state street corporation as a part of Boston University&amp;rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.&lt;/p&gt;&#xA;&lt;p&gt;this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.&lt;/li&gt;&#xA;&lt;li&gt;we used Harness to orchestrate ci/cd pathways and manage deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;architecture&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;//localhost:1313/images/snowflake-architecture.png&#34; width=&#34;800px&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;snowflake architecture&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
