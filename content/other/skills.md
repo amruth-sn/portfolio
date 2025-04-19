@@ -6,6 +6,18 @@ tags = ["skills"]
 
 # skills/experience
 
+## languages:
+### proficient in:
+- python
+- typescript
+- c++
+- c
+ 
+### languages being learned:
+- rust
+- golang
+
+
 ## cloud:
 - aws (ec2, fargate, ecs, eks, elb, s3, cloudfront, dynamoDB, auroraDB, sagemaker, lambda)
 - gcp (bigtable, compute engine, cloud run, container registry, gke, firestore, firebase)
@@ -30,13 +42,3 @@ tags = ["skills"]
 - discrete stochastic models - ENG EC 534 (A)
 - cloud computing - ENG EC 528 (A)
  
-## languages:
-### proficient in:
-- python
-- typescript
-- c++
-- c
- 
-### languages being learned:
-- rust
-- golang
