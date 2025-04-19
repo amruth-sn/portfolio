@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.146.5">
   
-  <title>amruthn.com</title>
+  <title>plate calculator - amruthn.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="amruth niranjan&#39;s portfolio page" />
+<meta name="description" content="overview got into lifting over winter break and i always thought something like this existed but didn&rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.
+for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?
+" />
 <meta name="keywords" content="portfolio" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/projects/platecalc/" />
 
 
 
@@ -77,10 +78,12 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="amruthn.com">
-<meta property="og:description" content="amruth niranjan&#39;s portfolio page" />
-<meta property="og:url" content="/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="plate calculator">
+<meta property="og:description" content="overview got into lifting over winter break and i always thought something like this existed but didn&rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.
+for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?
+" />
+<meta property="og:url" content="/projects/platecalc/" />
 <meta property="og:site_name" content="amruthn.com" />
 
   <meta property="og:image" content="/og-image.png">
@@ -89,12 +92,10 @@
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-04-18 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2025-01-06 00:00:00 &#43;0000 UTC" />
 
 
 
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="amruthn.com" />
 
 
 
@@ -285,43 +286,62 @@
 
   <div class="content">
     
+<div class="post">
+  <h1 class="post-title">plate calculator</h1>
   
-    <div class="index-content ">
-      <h1 id="hello-im-amruth">hello, i&rsquo;m amruth</h1>
-<p>a window into my brain.</p>
-<figure><img src="/images/IMG_1583.png" width="500px"><figcaption>
-      <h4>me</h4>
-    </figcaption>
-</figure>
-
-<p>i&rsquo;ll be documenting my journey, sharing what i&rsquo;ve learned, and showcasing the <a href="/projects/">projects</a> I&rsquo;ve been working on.</p>
-<p>feel free to check out my <a href="/other/">other</a> areas of interest.</p>
-<h1 id="about-me">about me</h1>
-<p>resume:</p>
-
-    </div>
   
-  <div class="posts">
-    
-    
+  <div class="post-meta"><time class="post-date">2025-01-06</time><span class="post-reading-time">7 min read (246 words)</span></div>
 
+
+  
+    <span class="post-tags">
+      
+        #<a href="/tags/development">development</a>&nbsp;
+      
+        #<a href="/tags/javascript">javascript</a>&nbsp;
+      
+        #<a href="/tags/fitness">fitness</a>&nbsp;
+      
+    </span>
+  
+
+  <div class="post-content">
     
     
+    
+      <div class="project-link">
+        <a href="http://platecalculator.xyz" target="_blank">live (use chrome)</a>
+      
+        
+      
+      </div>
       
     
-    
 
     
+    
+    <div class="project-description">
+      <h2 id="overview">overview</h2>
+<p>got into lifting over winter break and i always thought something like this existed but didn&rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.</p>
+<p>for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?</p>
+<h1 id="input">input:</h1>
+<ul>
+<li>which weights are available (and how many&hellip; more below)</li>
+<li>a &ldquo;total weight&rdquo; to be lifted with a barbell</li>
+<li>barbell weight</li>
+</ul>
+<h1 id="output">output:</h1>
+<p>is it possible to create a barbell with this weight? if not, say no. if yes, give the most optimal (w.r.t number of plates) way this weight could be configured. i.e., minimizing the number of plates overall.</p>
+<h2 id="mode-1-infinite-plates-">mode 1: infinite plates ∞</h2>
+<p>obviously infinite plates don&rsquo;t exist but if you&rsquo;re lifting at a large commercial gym with more than 8-10 of each plate type you could just use this mode. this is the &ldquo;normal&rdquo; functionality (i.e. wanting to figure out the &ldquo;normal&rdquo; optimal configuration for plate choices)</p>
+<h2 id="mode-2-finite-plates">mode 2: finite plates</h2>
+<p>not everyone lifts at a large rec center so for the home gym folks with a specific quantity of plate types and sizes, they can enter in whichever weights they have (and how many) and go from there.</p>
+<h2 id="intended-use">intended use:</h2>
+<p>if you can&rsquo;t do (or don&rsquo;t feel like doing) math in the gym then this is for you!</p>
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
+    </div>
   </div>
 </div>
-
-  </div>
 
   </div>
 

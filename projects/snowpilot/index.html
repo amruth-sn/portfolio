@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.146.5">
   
-  <title>amruthn.com</title>
+  <title>snowpilot - amruthn.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="amruth niranjan&#39;s portfolio page" />
+<meta name="description" content="overview when i worked with state street corporation as a part of Boston University&rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.
+this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.
+stack we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase. we used Harness to orchestrate ci/cd pathways and manage deployments. architecture snowflake architecture this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.
+" />
 <meta name="keywords" content="portfolio" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/projects/snowpilot/" />
 
 
 
@@ -77,10 +79,13 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="amruthn.com">
-<meta property="og:description" content="amruth niranjan&#39;s portfolio page" />
-<meta property="og:url" content="/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="snowpilot">
+<meta property="og:description" content="overview when i worked with state street corporation as a part of Boston University&rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.
+this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.
+stack we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase. we used Harness to orchestrate ci/cd pathways and manage deployments. architecture snowflake architecture this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.
+" />
+<meta property="og:url" content="/projects/snowpilot/" />
 <meta property="og:site_name" content="amruthn.com" />
 
   <meta property="og:image" content="/og-image.png">
@@ -89,12 +94,10 @@
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-04-18 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2024-12-18 00:00:00 &#43;0000 UTC" />
 
 
 
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="amruthn.com" />
 
 
 
@@ -285,43 +288,71 @@
 
   <div class="content">
     
+<div class="post">
+  <h1 class="post-title">snowpilot</h1>
   
-    <div class="index-content ">
-      <h1 id="hello-im-amruth">hello, i&rsquo;m amruth</h1>
-<p>a window into my brain.</p>
-<figure><img src="/images/IMG_1583.png" width="500px"><figcaption>
-      <h4>me</h4>
+  
+  <div class="post-meta"><time class="post-date">2024-12-18</time><span class="post-reading-time">6 min read (146 words)</span></div>
+
+
+  
+    <span class="post-tags">
+      
+        #<a href="/tags/development">development</a>&nbsp;
+      
+        #<a href="/tags/python">python</a>&nbsp;
+      
+        #<a href="/tags/liquibase">liquibase</a>&nbsp;
+      
+        #<a href="/tags/harness">harness</a>&nbsp;
+      
+        #<a href="/tags/ci-cd">ci-cd</a>&nbsp;
+      
+        #<a href="/tags/snowflake">snowflake</a>&nbsp;
+      
+    </span>
+  
+
+  <div class="post-content">
+    
+    
+    
+      <div class="project-link">
+        <a href="https://www.roomform.ai" target="_blank">source code</a>
+      
+        
+        <br>
+        <a href="https://snowflake-docs.vercel.app/en/getting-started" target="_blank">docs</a>
+      
+      
+      </div>
+      
+    
+
+    
+    
+    <div class="project-description">
+      <h2 id="overview">overview</h2>
+<p>when i worked with state street corporation as a part of Boston University&rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.</p>
+<p>this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.</p>
+<h2 id="stack">stack</h2>
+<ul>
+<li>we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.</li>
+<li>we used Harness to orchestrate ci/cd pathways and manage deployments.</li>
+</ul>
+<h2 id="architecture">architecture</h2>
+<figure><img src="/images/snowflake-architecture.png" width="800px"><figcaption>
+      <h4>snowflake architecture</h4>
     </figcaption>
 </figure>
 
-<p>i&rsquo;ll be documenting my journey, sharing what i&rsquo;ve learned, and showcasing the <a href="/projects/">projects</a> I&rsquo;ve been working on.</p>
-<p>feel free to check out my <a href="/other/">other</a> areas of interest.</p>
-<h1 id="about-me">about me</h1>
-<p>resume:</p>
+<p>this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.</p>
+<h2 id="future">future</h2>
+<p>this project was initially intended for the folks over at state street, but we were given the authorization to make an open-sourced cli version. we packaged this up over on github for anyone to use!</p>
 
     </div>
-  
-  <div class="posts">
-    
-    
-
-    
-    
-      
-    
-    
-
-    
-
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
   </div>
 </div>
-
-  </div>
 
   </div>
 

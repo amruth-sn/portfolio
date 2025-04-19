@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.146.5">
   
-  <title>amruthn.com</title>
+  <title>shell - amruthn.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="amruth niranjan&#39;s portfolio page" />
+<meta name="description" content="overview a custom-built shell written in c. replicates the core functionality of a unix shell, supporting features like command execution, piping, file redirection, and background process management. helped me understand how shells work under the hood.
+features command execution: runs both built-in and external commands. piping: allows the output of one command to be used as the input for another. file redirection: supports input (&lt;) and output (&gt;) redirection. background processes: enables commands to run in the background using &amp;. implementation the shell uses system calls like fork(), exec(), and wait() to manage processes. it parses user input to identify commands, arguments, and special characters for piping or redirection. for piping, it sets up pipes between processes. for redirection, it manipulates file descriptors to read from or write to files. background processes are handled by forking without waiting for the child process to finish.
+" />
 <meta name="keywords" content="portfolio" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/projects/shell/" />
 
 
 
@@ -77,10 +78,12 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="amruthn.com">
-<meta property="og:description" content="amruth niranjan&#39;s portfolio page" />
-<meta property="og:url" content="/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="shell">
+<meta property="og:description" content="overview a custom-built shell written in c. replicates the core functionality of a unix shell, supporting features like command execution, piping, file redirection, and background process management. helped me understand how shells work under the hood.
+features command execution: runs both built-in and external commands. piping: allows the output of one command to be used as the input for another. file redirection: supports input (&lt;) and output (&gt;) redirection. background processes: enables commands to run in the background using &amp;. implementation the shell uses system calls like fork(), exec(), and wait() to manage processes. it parses user input to identify commands, arguments, and special characters for piping or redirection. for piping, it sets up pipes between processes. for redirection, it manipulates file descriptors to read from or write to files. background processes are handled by forking without waiting for the child process to finish.
+" />
+<meta property="og:url" content="/projects/shell/" />
 <meta property="og:site_name" content="amruthn.com" />
 
   <meta property="og:image" content="/og-image.png">
@@ -89,12 +92,10 @@
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-04-18 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2023-10-02 00:00:00 &#43;0000 UTC" />
 
 
 
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="amruthn.com" />
 
 
 
@@ -285,43 +286,58 @@
 
   <div class="content">
     
+<div class="post">
+  <h1 class="post-title">shell</h1>
   
-    <div class="index-content ">
-      <h1 id="hello-im-amruth">hello, i&rsquo;m amruth</h1>
-<p>a window into my brain.</p>
-<figure><img src="/images/IMG_1583.png" width="500px"><figcaption>
-      <h4>me</h4>
-    </figcaption>
-</figure>
-
-<p>i&rsquo;ll be documenting my journey, sharing what i&rsquo;ve learned, and showcasing the <a href="/projects/">projects</a> I&rsquo;ve been working on.</p>
-<p>feel free to check out my <a href="/other/">other</a> areas of interest.</p>
-<h1 id="about-me">about me</h1>
-<p>resume:</p>
-
-    </div>
   
-  <div class="posts">
-    
-    
+  <div class="post-meta"><time class="post-date">2023-10-02</time><span class="post-reading-time">7 min read (205 words)</span></div>
 
+
+  
+    <span class="post-tags">
+      
+        #<a href="/tags/development">development</a>&nbsp;
+      
+        #<a href="/tags/c">c</a>&nbsp;
+      
+    </span>
+  
+
+  <div class="post-content">
     
     
+    
+      <div class="project-link">
+        <a href="https://github.com/amruth-sn/simple-shell" target="_blank">source code</a>
+      
+        
+      
+      </div>
       
     
-    
 
     
+    
+    <div class="project-description">
+      <h1 id="overview">overview</h1>
+<p>a custom-built shell written in c. replicates the core functionality of a unix shell, supporting features like command execution, piping, file redirection, and background process management. helped me understand how shells work under the hood.</p>
+<h1 id="features">features</h1>
+<ul>
+<li><strong>command execution</strong>: runs both built-in and external commands.</li>
+<li><strong>piping</strong>: allows the output of one command to be used as the input for another.</li>
+<li><strong>file redirection</strong>: supports input (<code>&lt;</code>) and output (<code>&gt;</code>) redirection.</li>
+<li><strong>background processes</strong>: enables commands to run in the background using <code>&amp;</code>.</li>
+</ul>
+<h1 id="implementation">implementation</h1>
+<p>the shell uses system calls like <code>fork()</code>, <code>exec()</code>, and <code>wait()</code> to manage processes. it parses user input to identify commands, arguments, and special characters for piping or redirection. for piping, it sets up pipes between processes. for redirection, it manipulates file descriptors to read from or write to files. background processes are handled by forking without waiting for the child process to finish.</p>
+<h1 id="usage">usage</h1>
+<p>compile the code using a c compiler like <code>gcc</code>, then run the executable. you&rsquo;ll get a prompt where you can enter commands just like in a regular shell. try out commands with pipes, redirection, or background execution to see how it handles them.</p>
+<h1 id="purpose">purpose</h1>
+<p>this project definitely helped deepen my understanding of process management, inter-process communication, and input/output handling overall.</p>
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
+    </div>
   </div>
 </div>
-
-  </div>
 
   </div>
 

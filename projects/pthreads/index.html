@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.146.5">
   
-  <title>amruthn.com</title>
+  <title>pthreads library - amruthn.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="amruth niranjan&#39;s portfolio page" />
+<meta name="description" content="overview this repo is a custom threading library built in c, designed to mimic core pthread functionality from scratch. it reimplements threading primitives like pthread_create, pthread_join, and pthread_exit, along with basic semaphore support. this project definitely helped me explore how user-level threading and synchronization can be manually orchestrated in a unix-like environment.
+architecture the core of the system revolves around a thread control block (TCB) array that can manage up to 128 threads. each TCB stores metadata like thread id, execution status (ready, running, blocked, exited), a jmp_buf for context switching, and a pointer to its allocated stack. there is also a global variable tracks the currently running thread and a signal-based timer (sigalrm) triggers context switches every 50ms via a scheduler function.
+" />
 <meta name="keywords" content="portfolio" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/" />
+<link rel="canonical" href="/projects/pthreads/" />
 
 
 
@@ -77,10 +78,12 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="amruthn.com">
-<meta property="og:description" content="amruth niranjan&#39;s portfolio page" />
-<meta property="og:url" content="/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="pthreads library">
+<meta property="og:description" content="overview this repo is a custom threading library built in c, designed to mimic core pthread functionality from scratch. it reimplements threading primitives like pthread_create, pthread_join, and pthread_exit, along with basic semaphore support. this project definitely helped me explore how user-level threading and synchronization can be manually orchestrated in a unix-like environment.
+architecture the core of the system revolves around a thread control block (TCB) array that can manage up to 128 threads. each TCB stores metadata like thread id, execution status (ready, running, blocked, exited), a jmp_buf for context switching, and a pointer to its allocated stack. there is also a global variable tracks the currently running thread and a signal-based timer (sigalrm) triggers context switches every 50ms via a scheduler function.
+" />
+<meta property="og:url" content="/projects/pthreads/" />
 <meta property="og:site_name" content="amruthn.com" />
 
   <meta property="og:image" content="/og-image.png">
@@ -89,12 +92,10 @@
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-04-18 00:00:00 &#43;0000 UTC" />
+  <meta property="article:published_time" content="2023-11-18 00:00:00 &#43;0000 UTC" />
 
 
 
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="amruthn.com" />
 
 
 
@@ -285,43 +286,55 @@
 
   <div class="content">
     
+<div class="post">
+  <h1 class="post-title">pthreads library</h1>
   
-    <div class="index-content ">
-      <h1 id="hello-im-amruth">hello, i&rsquo;m amruth</h1>
-<p>a window into my brain.</p>
-<figure><img src="/images/IMG_1583.png" width="500px"><figcaption>
-      <h4>me</h4>
-    </figcaption>
-</figure>
-
-<p>i&rsquo;ll be documenting my journey, sharing what i&rsquo;ve learned, and showcasing the <a href="/projects/">projects</a> I&rsquo;ve been working on.</p>
-<p>feel free to check out my <a href="/other/">other</a> areas of interest.</p>
-<h1 id="about-me">about me</h1>
-<p>resume:</p>
-
-    </div>
   
-  <div class="posts">
-    
-    
+  <div class="post-meta"><time class="post-date">2023-11-18</time></div>
 
+
+  
+    <span class="post-tags">
+      
+        #<a href="/tags/development">development</a>&nbsp;
+      
+        #<a href="/tags/c">c</a>&nbsp;
+      
+    </span>
+  
+
+  <div class="post-content">
     
     
+    
+      <div class="project-link">
+        <a href="https://github.com/amruth-sn/pthread_library" target="_blank">source code</a>
+      
+        
+      
+      </div>
       
     
-    
 
     
+    
+    <div class="project-description">
+      <h1 id="overview">overview</h1>
+<p>this repo is a custom threading library built in c, designed to mimic core pthread functionality from scratch. it reimplements  threading primitives like <code>pthread_create</code>, <code>pthread_join</code>, and <code>pthread_exit</code>, along with basic semaphore support. this project definitely helped me explore how user-level threading and synchronization can be manually orchestrated in a unix-like environment.</p>
+<h1 id="architecture">architecture</h1>
+<p>the core of the system revolves around a thread control block (TCB) array that can manage up to 128 threads. each TCB stores metadata like thread id, execution status (<code>ready</code>, <code>running</code>, <code>blocked</code>, <code>exited</code>), a <code>jmp_buf</code> for context switching, and a pointer to its allocated stack. there is also a global variable tracks the currently running thread and a signal-based timer (<code>sigalrm</code>) triggers context switches every 50ms via a scheduler function.</p>
+<h1 id="threading-model">threading model</h1>
+<ul>
+<li><strong>pthread_create</strong>: initializes the TCB for a new thread, sets up its stack, and prepares its context to jump into the specified start routine. the first call also sets up the scheduler and signal handler.</li>
+<li><strong>pthread_exit</strong>: marks the current thread as exited, frees its resources, and invokes the scheduler to switch to the next ready thread.</li>
+<li><strong>pthread_join</strong>: allows one thread to wait for another to finish. if the target thread hasn&rsquo;t exited, the calling thread is blocked until it does.</li>
+</ul>
+<h1 id="synchronization">synchronization</h1>
+<p>basic semaphore functionality is implemented using a custom <code>sema</code> struct. semaphores maintain a count and a queue of blocked threads. <code>sem_wait</code> decrements the count or blocks the thread if the count is zero, while <code>sem_post</code> increments the count and unblocks waiting threads. <code>sem_init</code> and <code>sem_destroy</code> handle initialization and cleanup.</p>
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
+    </div>
   </div>
 </div>
-
-  </div>
 
   </div>
 
