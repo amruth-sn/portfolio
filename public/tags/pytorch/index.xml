@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pytorch on amruthn.com</title>
-    <link>/tags/pytorch/</link>
+    <link>//localhost:64634/tags/pytorch/</link>
     <description>Recent content in Pytorch on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>deepSOZ-HEM</title>
-      <link>/projects/deepsoz-hem/</link>
+      <link>//localhost:64634/projects/deepsoz-hem/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/deepsoz-hem/</guid>
+      <guid>//localhost:64634/projects/deepsoz-hem/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;over the course of jan 2024 - march 2025, i worked on improving, building, and ultimately evaluating an epileptic seizure detection algorithm using &amp;ldquo;DeepSOZ: A Robust Deep Model for Joint Temporal and Spatial Seizure Onset Localization from Multichannel EEG Data&amp;rdquo; (Shama, et al., MICCAI 2023) as a baseline model.&lt;/p&gt;&#xA;&lt;h2 id=&#34;process&#34;&gt;process&lt;/h2&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;challenge&lt;/h2&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;results&lt;/h2&gt;&#xA;&lt;h2 id=&#34;people&#34;&gt;people&lt;/h2&gt;&#xA;&lt;p&gt;a big thank you to Dr. Archana Venkataraman and Deeksha Shama for working with me over this year. they taught me so much  content-wise (that i never learned in any classes) but more specifically the process of iterating over an end-to-end research project itself.&lt;/p&gt;</description>
     </item>
   </channel>

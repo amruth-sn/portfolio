@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on amruthn.com</title>
-    <link>/tags/javascript/</link>
+    <link>//localhost:64634/tags/javascript/</link>
     <description>Recent content in Javascript on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>automated recruiter emails</title>
-      <link>/projects/auto-email/</link>
+      <link>//localhost:64634/projects/auto-email/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/auto-email/</guid>
+      <guid>//localhost:64634/projects/auto-email/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;a fastapi-powered backend that automates the entire cold-emailing process for job applications. it handles scraping job info to generating and sending emails. i connected it to a google sheets app script and it runs locally with an ngrok tunnel to interact with from the browser for the apps script.&lt;/p&gt;&#xA;&lt;p&gt;you start by pasting a linkedin job link into the sheet and the system kicks off a playwright script that scrapes the company name, job title, and job description. after this a separate playwright worker searches bing for recruiter or hiring manager profiles at the company (e.g. “recruiters at {company_name} site:linkedin.com”), finds the most relevant result, and adds that link to the sheet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>plate calculator</title>
-      <link>/projects/platecalc/</link>
+      <link>//localhost:64634/projects/platecalc/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/platecalc/</guid>
+      <guid>//localhost:64634/projects/platecalc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;got into lifting over winter break and i always thought something like this existed but didn&amp;rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.&lt;/p&gt;&#xA;&lt;p&gt;for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?&lt;/p&gt;</description>
     </item>
   </channel>

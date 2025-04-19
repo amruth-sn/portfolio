@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>welcome on amruthn.com</title>
-    <link>/</link>
+    <link>//localhost:64634/</link>
     <description>Recent content in welcome on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fitness</title>
-      <link>/other/fitness/</link>
+      <link>//localhost:64634/other/fitness/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/fitness/</guid>
+      <guid>//localhost:64634/other/fitness/</guid>
       <description>&lt;h1 id=&#34;fitness&#34;&gt;fitness&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>media</title>
-      <link>/other/media/</link>
+      <link>//localhost:64634/other/media/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/media/</guid>
+      <guid>//localhost:64634/other/media/</guid>
       <description>&lt;h1 id=&#34;media&#34;&gt;media&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>portfolio</title>
-      <link>/projects/portfolio/</link>
+      <link>//localhost:64634/projects/portfolio/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/portfolio/</guid>
+      <guid>//localhost:64634/projects/portfolio/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;started off as a react.js page with email.js integration, but then i realized i wasn&amp;rsquo;t important enough for that to have any real effect.&lt;/p&gt;&#xA;&lt;p&gt;found out about Hugo, a Golang-based static site generator. i&amp;rsquo;m typing this out on it, hence the &amp;ldquo;meta&amp;rdquo;-aspect. definitely feels a lot smoother for something like a portfolio page, without all of the extra overhead (apart from installing themes&amp;hellip;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>rightup.dev</title>
-      <link>/projects/rightup/</link>
+      <link>//localhost:64634/projects/rightup/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/rightup/</guid>
+      <guid>//localhost:64634/projects/rightup/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;coming soon&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>roomform.ai</title>
-      <link>/projects/roomform/</link>
+      <link>//localhost:64634/projects/roomform/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/roomform/</guid>
+      <guid>//localhost:64634/projects/roomform/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;our (collegiate) magnum opus. designed this with three friends as a part of our senior design project, but it turned into something much bigger.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;problem&lt;/h2&gt;&#xA;&lt;p&gt;when i moved into my apartment, i was lucky enough to have core furniture already installed by the guy who lived here before me (i just paid him for it). but when i wanted to buy something new, like a lamp or a new couch for the living room, etc., i faced an issue which is pretty common among home decorators:&lt;/p&gt;</description>
     </item>
     <item>
       <title>skills</title>
-      <link>/other/skills/</link>
+      <link>//localhost:64634/other/skills/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/skills/</guid>
+      <guid>//localhost:64634/other/skills/</guid>
       <description>&lt;h1 id=&#34;skillsexperience&#34;&gt;skills/experience&lt;/h1&gt;&#xA;&lt;h2 id=&#34;languages&#34;&gt;languages:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;proficient-in&#34;&gt;proficient in:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;python&lt;/li&gt;&#xA;&lt;li&gt;typescript&lt;/li&gt;&#xA;&lt;li&gt;c++&lt;/li&gt;&#xA;&lt;li&gt;c&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;languages-being-learned&#34;&gt;languages being learned:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;rust&lt;/li&gt;&#xA;&lt;li&gt;golang&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cloud&#34;&gt;cloud:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;aws (ec2, fargate, ecs, eks, elb, s3, cloudfront, dynamoDB, auroraDB, sagemaker, lambda)&lt;/li&gt;&#xA;&lt;li&gt;gcp (bigtable, compute engine, cloud run, container registry, gke, firestore, firebase)&lt;/li&gt;&#xA;&lt;li&gt;snowflake&lt;/li&gt;&#xA;&lt;li&gt;terraform&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development&#34;&gt;development:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker, kubernetes&lt;/li&gt;&#xA;&lt;li&gt;django, flask, fastapi, node (express)&lt;/li&gt;&#xA;&lt;li&gt;next, react, streamlit&lt;/li&gt;&#xA;&lt;li&gt;postgresql, mysql&lt;/li&gt;&#xA;&lt;li&gt;harness ci/cd, github actions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;aiml&#34;&gt;ai/ml:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pytorch&lt;/li&gt;&#xA;&lt;li&gt;tensorflow&lt;/li&gt;&#xA;&lt;li&gt;a bunch of math&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;graduate-classes-taken&#34;&gt;graduate classes taken:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;optimization for machine learning - ENG EC 525 (A)&lt;/li&gt;&#xA;&lt;li&gt;deep learning - ENG EC 523 (A)&lt;/li&gt;&#xA;&lt;li&gt;discrete stochastic models - ENG EC 534 (A)&lt;/li&gt;&#xA;&lt;li&gt;cloud computing - ENG EC 528 (A)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>automated recruiter emails</title>
-      <link>/projects/auto-email/</link>
+      <link>//localhost:64634/projects/auto-email/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/auto-email/</guid>
+      <guid>//localhost:64634/projects/auto-email/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;a fastapi-powered backend that automates the entire cold-emailing process for job applications. it handles scraping job info to generating and sending emails. i connected it to a google sheets app script and it runs locally with an ngrok tunnel to interact with from the browser for the apps script.&lt;/p&gt;&#xA;&lt;p&gt;you start by pasting a linkedin job link into the sheet and the system kicks off a playwright script that scrapes the company name, job title, and job description. after this a separate playwright worker searches bing for recruiter or hiring manager profiles at the company (e.g. “recruiters at {company_name} site:linkedin.com”), finds the most relevant result, and adds that link to the sheet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>deepSOZ-HEM</title>
-      <link>/projects/deepsoz-hem/</link>
+      <link>//localhost:64634/projects/deepsoz-hem/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/deepsoz-hem/</guid>
+      <guid>//localhost:64634/projects/deepsoz-hem/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;over the course of jan 2024 - march 2025, i worked on improving, building, and ultimately evaluating an epileptic seizure detection algorithm using &amp;ldquo;DeepSOZ: A Robust Deep Model for Joint Temporal and Spatial Seizure Onset Localization from Multichannel EEG Data&amp;rdquo; (Shama, et al., MICCAI 2023) as a baseline model.&lt;/p&gt;&#xA;&lt;h2 id=&#34;process&#34;&gt;process&lt;/h2&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;challenge&lt;/h2&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;results&lt;/h2&gt;&#xA;&lt;h2 id=&#34;people&#34;&gt;people&lt;/h2&gt;&#xA;&lt;p&gt;a big thank you to Dr. Archana Venkataraman and Deeksha Shama for working with me over this year. they taught me so much  content-wise (that i never learned in any classes) but more specifically the process of iterating over an end-to-end research project itself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>plate calculator</title>
-      <link>/projects/platecalc/</link>
+      <link>//localhost:64634/projects/platecalc/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/projects/platecalc/</guid>
+      <guid>//localhost:64634/projects/platecalc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;got into lifting over winter break and i always thought something like this existed but didn&amp;rsquo;t see anything so i just got to building. solves the (somewhat nonexistent) problem of using too many plates to lift the same weight.&lt;/p&gt;&#xA;&lt;p&gt;for example, if you wanted to lift 135 lbs using a 45lb barbell, would you use two 25lb plates and four 10lb plates, or would you simply use two 45lb plates (one on each end)?&lt;/p&gt;</description>
     </item>
     <item>
       <title>snowpilot</title>
-      <link>/projects/snowpilot/</link>
+      <link>//localhost:64634/projects/snowpilot/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/projects/snowpilot/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;when i worked with state street corporation as a part of Boston University&amp;rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.&lt;/p&gt;&#xA;&lt;p&gt;this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.&lt;/li&gt;&#xA;&lt;li&gt;we used Harness to orchestrate ci/cd pathways and manage deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;architecture&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/images/snowflake-architecture.png&#34; width=&#34;800px&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;snowflake architecture&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.&lt;/p&gt;</description>
+      <guid>//localhost:64634/projects/snowpilot/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;when i worked with state street corporation as a part of Boston University&amp;rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.&lt;/p&gt;&#xA;&lt;p&gt;this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.&lt;/li&gt;&#xA;&lt;li&gt;we used Harness to orchestrate ci/cd pathways and manage deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;architecture&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;//localhost:64634/images/snowflake-architecture.png&#34; width=&#34;800px&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;snowflake architecture&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>automated git commits</title>
-      <link>/projects/auto-commit/</link>
+      <link>//localhost:64634/projects/auto-commit/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/projects/auto-commit/</guid>
+      <guid>//localhost:64634/projects/auto-commit/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;a tool for devs who want to streamline their git workflow. it uses the groq api to auto-generate commit messages based on your staged changes by tracking your &lt;code&gt;git diff&lt;/code&gt;.​&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;how it works&lt;/h2&gt;&#xA;&lt;p&gt;the prepare-commit-msg hook taps into your git process and crafts a commit message using an llm. you can apply this hook across multiple repos using the update_hooks.sh script. just set your GROQ_API_KEY as an environment variable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>file system</title>
-      <link>/projects/file_system/</link>
+      <link>//localhost:64634/projects/file_system/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/projects/file_system/</guid>
+      <guid>//localhost:64634/projects/file_system/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;&#xA;&lt;p&gt;a c-based implementation of a simplified file system. it mimics a windows-style FAT (file allocation table) architecture and supports core file ops like creating, reading, writing, deleting, and managing file descriptors. the project simulates a virtual disk environment for testing too.&lt;/p&gt;&#xA;&lt;h1 id=&#34;implementation&#34;&gt;implementation&lt;/h1&gt;&#xA;&lt;p&gt;several key components:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;superblock&lt;/strong&gt;: holds metadata about the file system layout, including directory and FAT sizes, and the starting block of data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;directory&lt;/strong&gt;: a statically allocated array that can hold up to 64 files, each entry storing file metadata like name, size, existence flag, reference count, and starting block.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FAT&lt;/strong&gt;: an array of 8192 integers representing the file allocation table, where each entry points to the next block in a file or indicates the end of a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;file descriptor table&lt;/strong&gt;: manages open files with entries containing an offset, a usage flag, and an index linking to the directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;fs_buffer&lt;/strong&gt;: a fixed-size buffer (4096 bytes) used for file system operations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;core-functions&#34;&gt;core functions&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;make_fs()&lt;/code&gt;: initializes the virtual disk, sets up the superblock, FAT, and directory, and writes them to disk.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;mount_fs()&lt;/code&gt;: loads the file system from disk into memory, reading the superblock, FAT, and directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;umount_fs()&lt;/code&gt;: writes the in-memory structures back to disk and closes the virtual disk.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fs_create()&lt;/code&gt;: creates a new file, ensuring the name is valid and not already in use, and allocates a starting block in the FAT.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fs_open()&lt;/code&gt;: opens an existing file by finding an available file descriptor and updating the reference count.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fs_close()&lt;/code&gt;: closes an open file descriptor and decrements the corresponding reference count.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fs_write()&lt;/code&gt; / &lt;code&gt;fs_read()&lt;/code&gt;: handles writing to and reading from files, managing offsets and traversing the FAT as needed.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fs_delete()&lt;/code&gt;: removes a file by clearing its directory entry and freeing its blocks in the FAT.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;future&#34;&gt;future&lt;/h1&gt;&#xA;&lt;p&gt;definitely room for adding concurrent access controls.&lt;/p&gt;</description>
     </item>
     <item>
       <title>pthreads library</title>
-      <link>/projects/pthreads/</link>
+      <link>//localhost:64634/projects/pthreads/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>/projects/pthreads/</guid>
+      <guid>//localhost:64634/projects/pthreads/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;&#xA;&lt;p&gt;this repo is a custom threading library built in c, designed to mimic core pthread functionality from scratch. it reimplements  threading primitives like &lt;code&gt;pthread_create&lt;/code&gt;, &lt;code&gt;pthread_join&lt;/code&gt;, and &lt;code&gt;pthread_exit&lt;/code&gt;, along with basic semaphore support. this project definitely helped me explore how user-level threading and synchronization can be manually orchestrated in a unix-like environment.&lt;/p&gt;&#xA;&lt;h1 id=&#34;architecture&#34;&gt;architecture&lt;/h1&gt;&#xA;&lt;p&gt;the core of the system revolves around a thread control block (TCB) array that can manage up to 128 threads. each TCB stores metadata like thread id, execution status (&lt;code&gt;ready&lt;/code&gt;, &lt;code&gt;running&lt;/code&gt;, &lt;code&gt;blocked&lt;/code&gt;, &lt;code&gt;exited&lt;/code&gt;), a &lt;code&gt;jmp_buf&lt;/code&gt; for context switching, and a pointer to its allocated stack. there is also a global variable tracks the currently running thread and a signal-based timer (&lt;code&gt;sigalrm&lt;/code&gt;) triggers context switches every 50ms via a scheduler function.&lt;/p&gt;</description>
     </item>
     <item>
       <title>shell</title>
-      <link>/projects/shell/</link>
+      <link>//localhost:64634/projects/shell/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/projects/shell/</guid>
+      <guid>//localhost:64634/projects/shell/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;&#xA;&lt;p&gt;a custom-built shell written in c. replicates the core functionality of a unix shell, supporting features like command execution, piping, file redirection, and background process management. helped me understand how shells work under the hood.&lt;/p&gt;&#xA;&lt;h1 id=&#34;features&#34;&gt;features&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;command execution&lt;/strong&gt;: runs both built-in and external commands.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;piping&lt;/strong&gt;: allows the output of one command to be used as the input for another.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;file redirection&lt;/strong&gt;: supports input (&lt;code&gt;&amp;lt;&lt;/code&gt;) and output (&lt;code&gt;&amp;gt;&lt;/code&gt;) redirection.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;background processes&lt;/strong&gt;: enables commands to run in the background using &lt;code&gt;&amp;amp;&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;implementation&#34;&gt;implementation&lt;/h1&gt;&#xA;&lt;p&gt;the shell uses system calls like &lt;code&gt;fork()&lt;/code&gt;, &lt;code&gt;exec()&lt;/code&gt;, and &lt;code&gt;wait()&lt;/code&gt; to manage processes. it parses user input to identify commands, arguments, and special characters for piping or redirection. for piping, it sets up pipes between processes. for redirection, it manipulates file descriptors to read from or write to files. background processes are handled by forking without waiting for the child process to finish.&lt;/p&gt;</description>
     </item>
   </channel>

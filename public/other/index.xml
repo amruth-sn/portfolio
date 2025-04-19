@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>other on amruthn.com</title>
-    <link>/other/</link>
+    <link>//localhost:64634/other/</link>
     <description>Recent content in other on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/other/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64634/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fitness</title>
-      <link>/other/fitness/</link>
+      <link>//localhost:64634/other/fitness/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/fitness/</guid>
+      <guid>//localhost:64634/other/fitness/</guid>
       <description>&lt;h1 id=&#34;fitness&#34;&gt;fitness&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>media</title>
-      <link>/other/media/</link>
+      <link>//localhost:64634/other/media/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/media/</guid>
+      <guid>//localhost:64634/other/media/</guid>
       <description>&lt;h1 id=&#34;media&#34;&gt;media&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>skills</title>
-      <link>/other/skills/</link>
+      <link>//localhost:64634/other/skills/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/other/skills/</guid>
+      <guid>//localhost:64634/other/skills/</guid>
       <description>&lt;h1 id=&#34;skillsexperience&#34;&gt;skills/experience&lt;/h1&gt;&#xA;&lt;h2 id=&#34;languages&#34;&gt;languages:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;proficient-in&#34;&gt;proficient in:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;python&lt;/li&gt;&#xA;&lt;li&gt;typescript&lt;/li&gt;&#xA;&lt;li&gt;c++&lt;/li&gt;&#xA;&lt;li&gt;c&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;languages-being-learned&#34;&gt;languages being learned:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;rust&lt;/li&gt;&#xA;&lt;li&gt;golang&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cloud&#34;&gt;cloud:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;aws (ec2, fargate, ecs, eks, elb, s3, cloudfront, dynamoDB, auroraDB, sagemaker, lambda)&lt;/li&gt;&#xA;&lt;li&gt;gcp (bigtable, compute engine, cloud run, container registry, gke, firestore, firebase)&lt;/li&gt;&#xA;&lt;li&gt;snowflake&lt;/li&gt;&#xA;&lt;li&gt;terraform&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development&#34;&gt;development:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker, kubernetes&lt;/li&gt;&#xA;&lt;li&gt;django, flask, fastapi, node (express)&lt;/li&gt;&#xA;&lt;li&gt;next, react, streamlit&lt;/li&gt;&#xA;&lt;li&gt;postgresql, mysql&lt;/li&gt;&#xA;&lt;li&gt;harness ci/cd, github actions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;aiml&#34;&gt;ai/ml:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pytorch&lt;/li&gt;&#xA;&lt;li&gt;tensorflow&lt;/li&gt;&#xA;&lt;li&gt;a bunch of math&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;graduate-classes-taken&#34;&gt;graduate classes taken:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;optimization for machine learning - ENG EC 525 (A)&lt;/li&gt;&#xA;&lt;li&gt;deep learning - ENG EC 523 (A)&lt;/li&gt;&#xA;&lt;li&gt;discrete stochastic models - ENG EC 534 (A)&lt;/li&gt;&#xA;&lt;li&gt;cloud computing - ENG EC 528 (A)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
