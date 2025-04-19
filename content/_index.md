@@ -18,4 +18,7 @@ feel free to check out my [other](/other) areas of interest.
 resume: [here](https://drive.google.com/file/d/1YzanotACKduH6jyFY9HTnISrvh3HpJNW/view)
  
  
-check out my [skills](/skills)!
+check out my [skills](/other/skills)!
+
+
+and here's my [linkedin](https://www.linkedin.com/in/amruthn/)!
