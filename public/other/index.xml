@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>other on amruthn.com</title>
+    <link>//localhost:1313/other/</link>
+    <description>Recent content in other on amruthn.com</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fitness</title>
+      <link>//localhost:1313/other/fitness/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/other/fitness/</guid>
+      <description>&lt;h1 id=&#34;fitness&#34;&gt;fitness&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>media</title>
+      <link>//localhost:1313/other/media/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/other/media/</guid>
+      <description>&lt;h1 id=&#34;media&#34;&gt;media&lt;/h1&gt;&#xA;&lt;p&gt;content coming soon.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

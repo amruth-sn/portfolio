@@ -1,0 +1,22 @@
+<div class="mobile-menu">
+  <ul class="mobile-menu__list">
+    {{ range $.Site.Menus.main }}
+      {{ if not .HasChildren }}
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ else }}
+        <li class="mobile-menu__item">
+          <span class="mobile-menu__link mobile-menu__link--subhead">{{ .Name }}</span>
+          <ul class="mobile-menu__sublist">
+            {{ range .Children }}
+              <li class="mobile-menu__subitem">
+                <a class="mobile-menu__sublink" href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div> 
