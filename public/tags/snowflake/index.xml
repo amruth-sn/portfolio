@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snowflake on amruthn.com</title>
-    <link>//localhost:64634/tags/snowflake/</link>
+    <link>/tags/snowflake/</link>
     <description>Recent content in Snowflake on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:64634/tags/snowflake/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/snowflake/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>snowpilot</title>
-      <link>//localhost:64634/projects/snowpilot/</link>
+      <link>/projects/snowpilot/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:64634/projects/snowpilot/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;when i worked with state street corporation as a part of Boston University&amp;rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.&lt;/p&gt;&#xA;&lt;p&gt;this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.&lt;/li&gt;&#xA;&lt;li&gt;we used Harness to orchestrate ci/cd pathways and manage deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;architecture&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;//localhost:64634/images/snowflake-architecture.png&#34; width=&#34;800px&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;snowflake architecture&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.&lt;/p&gt;</description>
+      <guid>/projects/snowpilot/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;when i worked with state street corporation as a part of Boston University&amp;rsquo;s cloud computing class (ENG EC 528), i built a system to automate resource deployments (orchestrating database migrations) from snowflake over the course 4 months.&lt;/p&gt;&#xA;&lt;p&gt;this project exposed me to the inner workings of ci/cd pipelines and cloud-native deployment, in addition to how database migrations truly work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;we used python (and pytest) for the backend, because of its easy-to-learn orm structures and its cohesion with liquibase.&lt;/li&gt;&#xA;&lt;li&gt;we used Harness to orchestrate ci/cd pathways and manage deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;architecture&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/images/snowflake-architecture.png&#34; width=&#34;800px&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;snowflake architecture&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;this figure shows the overall architecture of our project, detailing the specific functions of liquibase and harness.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

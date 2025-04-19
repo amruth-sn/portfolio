@@ -1,0 +1,12 @@
+{{ if .Site.IsServer }}
+<!-- Skipping Google Analytics on local server -->
+{{ else }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELXT54SXLM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ELXT54SXLM');
+</script>
+{{ end }}
