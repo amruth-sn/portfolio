@@ -23,7 +23,7 @@ the same applies for all furniture. when moving into an apartment, people want s
 ## competitor landscape
 of course interior design tools and 3D tools exist. if they didn't, this project would be making billions. however, the learning curves are too steep, which is why interior designers exist (and are paid well) in the first place. it follows, then, that there's a reason why being able to hire an interior designer is a privilege meant for the ultra-rich. why can't average people be able to express their creativity too?
 
-by maintaining a completely in-browser application (with a free tier), we have revolutionized the definition of being creative. gone are the days of having to pick up a textbook and attend university classes to learn [blender](https://www.blender.org) just to get a measly sense for 3D modeling. anyone can do it now. and the ui is so simple a dog could do it too.
+by maintaining a completely in-browser application (with a free tier), we have revolutionized the definition of being creative. gone are the days of having to pick up a textbook and attend university classes to learn <a href="https://www.blender.org" target="_blank">blender</a> just to get a measly sense for 3D modeling. anyone can do it now. and the ui is so simple a dog could do it too.
 
 there is no freemium (let alone free) software that offers the ability to do most, if not all of the following:
 - search for furniture using natural language and view thumbnails and descriptions
@@ -59,7 +59,7 @@ this implementation was amazing, but, per usual, nobody really paid attention to
 
 for example: if i typed in "chair", we would make a separate request for "c", a separate request for "ch", etc., as i typed the word in, and displayed all search results for each. the underlying querying implementation was efficient enough (small-scale) so it wasn't really noticeable unless you really paid attention.
 
-the "[ostrich algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm#:~:text=In%20computer%20science%2C%20the%20ostrich,pretend%20there%20is%20no%20problem%22.)" solution to this would just be to search when users hit the "enter" button or a distinctive "search" button, but this isn't cool.
+the "<a href="https://en.wikipedia.org/wiki/Ostrich_algorithm#:~:text=In%20computer%20science%2C%20the%20ostrich,pretend%20there%20is%20no%20problem%22." target="_blank">ostrich algorithm</a>" solution to this would just be to search when users hit the "enter" button or a distinctive "search" button, but this isn't cool.
 
 i used my "computer engineering" skills for once and remembered our FPGA classes sophomore year, when we were introduced to the concept of debouncing button presses in order to allow signals to correctly propagate. using react's ``useRef`` and ``setTimeout``, i implemented a simple debouncer that would wait ``timeOutSetting`` ms until it made the api call, where ``timeOutSetting`` is a parameter that can be tweaked. if a new character gets typed before the timer expires, the timer resets. this also accounts for fast typers!
 

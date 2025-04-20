@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on amruthn.com</title>
-    <link>/tags/bash/</link>
+    <link>//localhost:1313/tags/bash/</link>
     <description>Recent content in Bash on amruthn.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>automated git commits</title>
-      <link>/projects/auto-commit/</link>
+      <link>//localhost:1313/projects/auto-commit/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/projects/auto-commit/</guid>
+      <guid>//localhost:1313/projects/auto-commit/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;overview&lt;/h2&gt;&#xA;&lt;p&gt;a tool for devs who want to streamline their git workflow. it uses the groq api to auto-generate commit messages based on your staged changes by tracking your &lt;code&gt;git diff&lt;/code&gt;.​&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;how it works&lt;/h2&gt;&#xA;&lt;p&gt;the prepare-commit-msg hook taps into your git process and crafts a commit message using an llm. you can apply this hook across multiple repos using the update_hooks.sh script. just set your GROQ_API_KEY as an environment variable.&lt;/p&gt;</description>
     </item>
   </channel>
