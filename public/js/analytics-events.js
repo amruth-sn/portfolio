@@ -24,23 +24,17 @@ function trackPageView(pageName) {
   });
 }
 
-function setupTrackedLinks(selector, label) {
-  const links = document.querySelectorAll(selector);
-  links.forEach(link => {
-    link.addEventListener('click', function(e) {
-      trackOutboundLink(this.href, label);
-    });
-  });
-}
-
 // Add event tracking to all links with data-track attribute
 document.addEventListener('DOMContentLoaded', function() {
   // Track resume clicks
-  setupTrackedLinks('a[href*="drive.google.com"]', 'resume_click');
-  setupTrackedLinks('a[href*="github.com"]', 'github_click');
-  setupTrackedLinks('a[href*="linkedin.com"]', 'linkedin_click');
-  setupTrackedLinks('a[href*="roomform.ai"]', 'roomform_click');
-  setupTrackedLinks('a[href*="platecalculator.xyz"]', 'platecalculator_click');
+  const resumeLinks = document.querySelectorAll('a[href*="resume"]');
+  resumeLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      trackOutboundLink(this.href, 'resume_click');
+    });
+  });
+  
   // Track current page view
   if (window.location.pathname.includes('/other/skills/')) {
     trackPageView('Skills Page');
