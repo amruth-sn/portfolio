@@ -15,10 +15,10 @@ feel free to check out my [other](/other) areas of interest.
 
 # about me
  
-resume: [here](https://drive.google.com/file/d/1YzanotACKduH6jyFY9HTnISrvh3HpJNW/view)
+resume: [here](https://drive.google.com/file/d/1YzanotACKduH6jyFY9HTnISrvh3HpJNW/view){target="_blank"}!
  
  
-check out my [skills](/other/skills)!
+check out my [skills](/other/skills){target="_blank"}!
 
 
-and here's my [linkedin](https://www.linkedin.com/in/amruthn/)!
+and here's my [linkedin](https://www.linkedin.com/in/amruthn/){target="_blank"}!
